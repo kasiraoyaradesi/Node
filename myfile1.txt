@@ -1,0 +1,58 @@
+This is first file
+
+
+API = application programm interface
+
+Rest API = representation state transfer application programm interface.
+
+CRUD =  create read update delete.
+
+
+using the crud operation the REST API pereform to build the application
+
+  when pereforming CRUD operation then some methods are they are : HTTP METHODS
+           1.GET
+           2.PUT = update the data
+           3.delete
+           4  POst  
+
+           . By using these HTTP method we are doing CRUD operation in REST API.
+
+Mongoose are libraries for mongoDB.
+
+body-parse = the data transfer  through HTTP request is access by bodyparse.
+
+ // { async{ try and catch we use..............
+                when we async in function then we use (....await....) }
+
+   promises {.then() and catch(err) ,,, we use} 
+
+
+     async and promises uses is same  .........}//
+
+
+     {
+
+        1... Modules = under create only employee [not employee(s] 
+           
+             In modules we write only collection records of[properties and values] like name:{
+                type:string
+             } ...it after expoprt to controller..
+
+        2. controller =  what are properties and values of collections comes from moduele that what to be 
+                    store in database ,,so we write in the controller/
+
+
+        3.Routes = rouites are used to send request to the server..
+
+           routers are inbuilt methods in express.. so import express in routes 
+
+
+        4. server.js = import router 
+            
+              and after we use middleware method like:
+
+              
+                        app.use("/users", userRouter);
+
+     }
